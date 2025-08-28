@@ -1,0 +1,31 @@
+/* Configurações */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --verde: #02A28F;
+    --cinza: #616161;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.container{
+    width: 100%;
+    max-width: 1130px;
+    margin: 0 auto;
+    
+}
+/* ******* */
+
+/* Header */
+header{
+    padding: 0 2%;
+    background-color: var(--verde);
+    color: white;
+    padding: 13px;
+}
+/* ***** */
