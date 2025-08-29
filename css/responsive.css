@@ -1,8 +1,92 @@
-@media screen and (max-width: 425px){
-    /* header */
+
+@media screen and (min-width: 2300px){
+    .container{
+        max-width: 1920px;
+    }
+
+    section{
+        max-width: none;
+        width: 70%;
+    }
+
+    aside{
+        max-width: none;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1171px){
+    .box-cards .card{
+        max-width: 320px;
+    }
+
+    .box-cards .card .content{
+        min-height: 240px;
+    }
+}
+
+@media screen and (max-width: 1084px){
+    .box-cards .card{
+        max-width: 291px;
+    }
+
+    .box-cards .card .content{
+        min-height: 280px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .text-banner h2{
+        font-size: 19px;
+    }
+    
+    .box-cards .card{
+        max-width: none;
+    }
+
+    .box-cards .card img{
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 768px){
     header h1{
         text-align: center;
         font-size: 24px;
     }
-    /* *** */
+    
+    .text-banner h2{
+        font-size: 24px;
+    }
+
+    main .container{
+        flex-direction: column;
+    }
+
+    aside{
+        max-width: none;
+    }
+
+    .box-cards{
+        margin: 11px 0 0px 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .wraper-banner img.banner{
+        height: 396px;
+    }
+}
+
+@media screen and (max-width: 436px){
+    .text-banner{
+        top: calc(100% - 150px);
+    }
+}
+
+
+@media screen and (max-width: 370px){
+    .title h2{
+    font-size: 16px;
+}
 }
