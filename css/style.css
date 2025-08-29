@@ -182,3 +182,13 @@ aside ul li{
     margin-bottom: 14px;
 }
 /* ***** */
+
+/* footer */
+footer{
+    background-color: var(--verde);
+    padding: 15px 2%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+/* ***** */
